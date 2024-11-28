@@ -32,22 +32,25 @@ O modelo foi treinado e avaliado usando as seguintes etapas:
    - Camada de saída com **softmax** para classificação em 10 classes.
 
 3. **Treinamento**:
-   - O modelo foi treinado por 3 épocas com o otimizador **Adam** e a função de perda **categorical crossentropy**.
+   - O modelo foi treinado por 5 épocas com o otimizador **Adam** e a função de perda **categorical crossentropy**.
 
 4. **Avaliação**:
    - O modelo foi avaliado utilizando o conjunto de teste, e a acurácia foi reportada.
    
 5. **Predições**:
    - O modelo faz previsões sobre as imagens de teste e exibe as imagens com suas predições e valores reais.
+   <img src='imagens_previsoes\imagem_1.png'>
+   <img src='imagens_previsoes\imagem_2.png'> 
+   <img src='imagens_previsoes\imagem_3.png'>
+   <img src='imagens_previsoes\imagem_4.png'>
+   <img src='imagens_previsoes\imagem_5.png'>
+   <img src='imagens_previsoes\imagem_6.png'>
 
 ## Exemplos de Saída
 
 Durante a execução dos scripts de previsão, as imagens de teste serão exibidas com títulos que mostram a predição e o valor verdadeiro. Aqui está um exemplo do título exibido para cada imagem:
 
-```
-Predição: 3 | Valor Verdadeiro: 3
-```
-
+<img src="exemple.png">
 
 
 ## Contribuição
