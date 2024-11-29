@@ -1,5 +1,7 @@
 # Classificação de Dígitos com Rede Neural Convolucional (CNN)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/julioquevdo/CNN/blob/dev/notebooks/handwrite_numbers.ipynb)
+
 Este projeto usa uma **Rede Neural Convolucional (CNN)** para classificar imagens de dígitos manuscritos do dataset **MNIST**. A rede é treinada para prever os números de 0 a 9 a partir das imagens, e a implementação utiliza o **Keras** e o **TensorFlow**.
 
 ## Estrutura do Projeto
